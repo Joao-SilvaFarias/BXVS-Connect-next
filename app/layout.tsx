@@ -16,8 +16,8 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
   return (
     <html lang="en">
       <body className={`${bebasNeue.variable} ${inter.variable} text-(--texto) font-inter`}>
-        <Splash/>
         {children}
+        <Splash/>
       </body>
     </html>
   );

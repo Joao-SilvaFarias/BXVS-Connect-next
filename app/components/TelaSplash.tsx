@@ -21,7 +21,7 @@ export default function Splash() {
         w-screen h-dvh 
         bg-[url('/backgroundTelaSplash.jpg')] 
         bg-cover absolute 
-        bg-center
+        bg-center top-0 left-0
         transition-opacity duration-500 ease-out 
         ${visible ? 'opacity-100' : 'opacity-0'} flex items-center justify-center
       `}

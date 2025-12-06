@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ContainerSistema from "../components/ContainerSistema";
 
 type InputProps = {
@@ -18,7 +19,7 @@ const Login = () => {
             <h2 className="text-5xl font-bebas-neue font-bold">Iniciar sessão</h2>
             <Input type="email" placeholder="E-mail" />
             <Input type="password" placeholder="Senha" />
-            <button className="w-full h-12 bg-primary rounded-[10px] cursor-pointer hover:bg-light-green transition delay-5" type="submit">Entrar</button>
+            <Link href="/" className="w-full h-12 bg-primary rounded-[10px] cursor-pointer hover:bg-light-green transition delay-5" type="submit">Entrar</Link>
         </div>
     </div>;
 }

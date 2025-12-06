@@ -6,5 +6,9 @@
   --font-inter: var(--inter);
   --color-primary: #7FA417;
   --color-light-green: #91bc1b;
+  --color-background: #1e1e1e;
+  --color-background-components: #393939;
+  --color-black-opacity: rgba(0, 0, 0, 0.3);
+  --color-hover-gray: #242424;
   --texto: #fff;
 }
