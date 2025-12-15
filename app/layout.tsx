@@ -15,7 +15,7 @@ const inter = Inter({
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
   return (
     <html lang="en">
-      <body className={`${bebasNeue.variable} ${inter.variable} text-(--texto) font-inter`}>
+      <body className={`${bebasNeue.variable} ${inter.variable} text-(--texto) font-inter bg-background`}>
         {children}
         <Splash/>
       </body>
